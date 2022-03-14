@@ -1,2 +1,10 @@
 # Structuri_Date
-Lem-Rau Dumitru Alexandru
+Lem-Rău Dumitru Alexandru
+
+
+Algoritmi folosiți:
+-Counting
+-Bubble
+-Merge
+-Radix
+-Shell
