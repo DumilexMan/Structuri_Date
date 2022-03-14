@@ -71,6 +71,8 @@ int verificare(int A[], int n)
 int main()
 {
     f>>n;
+    if(n<=100000)
+    {
     for(i=1;i<=n;i++)
         f>>v[i];
 
@@ -87,6 +89,10 @@ int main()
         cout<<endl;
         cout<< std::fixed << std::setprecision(2) << std::chrono::duration<double , std::milli>(t_end - t_start).count()<<endl;
         cout<<verificare(v,n);
-
+    }
+    else
+    {
+    cout<<"Nu se poate face.";
+    }
     return 0;
 }
