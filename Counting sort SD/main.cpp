@@ -88,7 +88,7 @@ int main()
     counting(a,n);
         auto t_end = std::chrono::high_resolution_clock::now();
     Afisare(a,n);
-    cout<<std::fixed << std::setprecision(2) << std::chrono::duration<double, std::milli>(t_end-t_start).count();
+    cout<<std::fixed << std::setprecision(2) << std::chrono::duration<double, std::milli>(t_end-t_start).count()<<endl;
     cout<<verificare(a,n);
     return 0;
 }
