@@ -82,6 +82,8 @@ int verificare(int A[], int n)
 int main()
 {
     f>>n;
+    if(n<=100000)
+    {
     for( i=0; i<n; i++)
         f>>a[i];
         auto t_start = std::chrono::high_resolution_clock::now();
@@ -90,5 +92,10 @@ int main()
     Afisare(a,n);
     cout<<std::fixed << std::setprecision(2) << std::chrono::duration<double, std::milli>(t_end-t_start).count()<<endl;
     cout<<verificare(a,n);
+    }
+    else
+    {
+    cout<<"Nu se poate face.";
+    }
     return 0;
 }
