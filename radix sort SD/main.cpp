@@ -91,7 +91,7 @@ int main()
     }
     else
     {
-    cout<<"nu se poate face.";
+    cout<<"Nu se poate face.";
     }
     return 0;
 }
